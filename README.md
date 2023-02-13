@@ -28,7 +28,6 @@ is unfortunately not working/valid for https://github.com/stylelint/stylelint se
 
 `"stylelint.configBasedir": "c:\\foo\\repo-stylelint-configbasedir-problem"`
 
-For each of above you will see:
-`Unknown word (CssSyntaxError) Stylelint(CssSyntaxError)`
+**For each of above you will see in editor `Unknown word (CssSyntaxError) Stylelint(CssSyntaxError)` and in console output `When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-html", and use the "customSyntax" option`.**
 
 The only one path which is working is with upper-cased drive letter.
