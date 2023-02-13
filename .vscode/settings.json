@@ -1,0 +1,29 @@
+{
+    "css.validate": false,
+    "stylelint.enable": true,
+    "stylelint.validate": [
+        "css",
+        "html"
+    ],
+    "stylelint.configBasedir": "..",
+    "stylelint.config": {
+        "overrides": [
+            {
+                "files": [
+                    "*.html"
+                ],
+                "customSyntax": "postcss-html"
+            }
+        ],
+        "rules": {
+            "property-no-unknown": [
+                true,
+                {
+                    "ignoreProperties": [
+                        "test-ignored-prop"
+                    ]
+                }
+            ]
+        }
+    }
+}
